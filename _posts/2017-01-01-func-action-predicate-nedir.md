@@ -14,7 +14,7 @@ Delegeler için metot referansını tutar deriz, bu tanım herkese çok açıkla
 
 Öncelikle delegeyi aşağıdaki gibi tanımlıyoruz. Generic bir tip alan ve void olan bir delege oluşturduk.
 
-{% highlight csharp %}
+{% highlight csharp linenos %}
 public delegate void SampleDelegate<in T>(T param);
 {% endhighlight %}
 
@@ -22,7 +22,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 def print_hi(name)
   puts "Hi, #{name}"
 end
